@@ -2,6 +2,13 @@ function App() {
   return (
     <>
       <h1>Hello Dojo!</h1>
+    </>
+  );
+}
+
+function TaskList() {
+  return (
+    <>
       <h2>Things I need to do:</h2>
       <ul>
         <li>Learn React</li>
@@ -13,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export { App, TaskList };
